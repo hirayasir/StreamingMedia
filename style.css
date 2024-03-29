@@ -15,14 +15,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-    /*
-    margin: 0;
-    padding: 0;
-    border: 0;*/
+    
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-} 
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -47,13 +44,14 @@ table {
     border-spacing: 0;
 }
 
-/*Web Page Styling for Muzak Maker website by Hira Yasir*/
+
+/**/
 
 html {
     background-color:#020659;
-
+   
 }
-/*mobile screen size*/
+
 body {
     width: 375px;
     margin: 0 auto;
@@ -63,7 +61,7 @@ body {
 
 header {
     padding: 100px 30px 10px 30px;
-    background: linear-gradient(80deg, #2104d9, #020659,  #000000);
+    background: linear-gradient(90deg, #2104d9,#020659,  #000000);
     color: #ffffff;
 }
 
@@ -334,11 +332,12 @@ footer {
     font-size: 10px;
     font-weight: bold;
 }
-/*md to lg screens*/
+
 @media screen and (min-width: 834px) {
     body {
         width: 834px;
         margin-bottom: 0px;
+        
     }
 
     nav {
@@ -376,6 +375,9 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 50% 50%;
+        
+        
+        
     }
 
     figure img {
@@ -389,6 +391,7 @@ footer {
         overflow-y: visible;
         padding-bottom: 0;
         min-height:100vh;
+      
     }
 
     #curated div {
@@ -398,6 +401,7 @@ footer {
         overflow-y: visible;
         padding-bottom: 0;
         min-height:100vh;
+        
     }
 
     .curate-button {
@@ -415,5 +419,7 @@ footer {
 .footer p {
   font-size: .75em;
 }
+
+
 
 
