@@ -370,6 +370,7 @@ footer {
     .more {
         position: relative;
         left: 630px;
+        top:  20px;
     }
 
     .grid-container {
