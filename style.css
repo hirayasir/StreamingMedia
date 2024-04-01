@@ -360,7 +360,7 @@ footer {
     a {
         position:relative;
         left: 320px;
-        bottom: 75px;
+        
     }
 
     label {
@@ -407,12 +407,12 @@ footer {
 
     .curate-button {
         position: relative;
-        left: 220px;
+        left: 200px;
     }
 
     .playlists-button {
         position: relative;
-        left: 230px;
+        left: 220px;
     }
 
 }
